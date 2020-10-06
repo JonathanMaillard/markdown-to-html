@@ -2,4 +2,4 @@
 
 ## Link to the site
 
-https://jonathanmaillard.github.io/markdown-to-html/index.html
+https://jonathanmaillard.github.io/markdown-to-html/
