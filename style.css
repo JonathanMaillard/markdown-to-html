@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+    color: #eeeeee;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.imgContainer{
+    height: 300px;
+    line-height: 300px;
+    
+}
+
+@keyframes zoomOut{
+    from{
+        width: 290px;
+    }
+    to{
+        width: 230px;
+    }
+}
+
+img{
+    border-radius: 50%;
+    width: 290px;
+    vertical-align: middle;
+    animation-name: zoomOut;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+ul{
+    list-style-type: none;
+    margin: O;
+    padding: 0;
+}
+
+li.bold{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+li{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+footer{
+    font-weight: bold;
+    background-color: #2A0057;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #B570FF;
+}
+
+a:visited{
+    color: #B570FF;
+}
+
+a:hover{
+    color: #964DE3;
+}
