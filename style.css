@@ -30,6 +30,7 @@ img{
     border-radius: 50%;
     width: 290px;
     vertical-align: middle;
+
     animation-name: zoomOut;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -44,7 +45,7 @@ table{
 
 ul{
     list-style-type: none;
-    margin: O;
+    margin: 0;
     padding: 0;
 }
 
